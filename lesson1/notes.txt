@@ -8,3 +8,80 @@ GitBash,
 Working Folder structure, 
 
 Docs shareing
+
+
+
+
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src
+$ git clone https://github.com/MihailKulev/tekwill_sql.git
+Cloning into 'tekwill_sql'...
+warning: You appear to have cloned an empty repository.
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src
+$ dir
+tekwill_sql
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src
+$ cd tekwill_sql/
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src/tekwill_sql (master)
+$ dir
+lesson1
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src/tekwill_sql (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        lesson1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src/tekwill_sql (master)
+$ git add lesson1/
+warning: LF will be replaced by CRLF in lesson1/notes.txt.
+The file will have its original line endings in your working directory.
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src/tekwill_sql (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   lesson1/notes.txt
+
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src/tekwill_sql (master)
+$ git commit -am "primul meu commit"
+[master (root-commit) 00ab437] primul meu commit
+ 1 file changed, 10 insertions(+)
+ create mode 100644 lesson1/notes.txt
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src/tekwill_sql (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src/tekwill_sql (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 339 bytes | 48.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/MihailKulev/tekwill_sql.git
+ * [new branch]      master -> master
+
+USER@admin MINGW64 /f/projects/tekwill_sql/src/tekwill_sql (master)
+$
