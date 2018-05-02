@@ -1,0 +1,10 @@
+Contacs,
+ 
+Slack setup,
+ 
+GitHub Repo, 
+GitBash, 
+
+Working Folder structure, 
+
+Docs shareing
