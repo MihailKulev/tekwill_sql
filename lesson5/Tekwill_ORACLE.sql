@@ -1,9 +1,288 @@
-SELECT *FROM employees
+SELECT *   
+FROM ad_faculty_course_details;
 
---select * from departments
-   
---select salary*1.1
---from EMPLOYEES;
---select *
---from EMPLOYEES
+SELECT distinct FACULTY_ID   
+FROM ad_faculty_course_details;
+
+
+desc employees;
+
+select *
+from EMPLOYEES;
+
+select *
+from EMPLOYEES
+where department_id=90;
+
+select *
+from EMPLOYEES
+--where FIRST_NAME='Steven';
+--where hire_date =  '17-JUN-11';
+where salary between 1000 and 5000;
+
+Select sysdate from dual; 
+
+describe dual;
+
+select *
+from EMPLOYEES
+--where FIRST_NAME='Steven';
+where hire_date between  '17-JUN-11' and '27-FEB-12';
+--where salary between 1000 and 5000;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Describe employees
